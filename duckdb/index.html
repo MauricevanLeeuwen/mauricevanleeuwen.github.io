@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8"/>
   <title>Hello World</title>
-  <link rel="stylesheet" href="duckdb/tailwind-9972b561504622e7.css" integrity="sha384&#x2D;3LUErfKEuFkq8nFUyHGwhqW8t7wnyoc5DuCmHhKhX6LvMuMpYvVtDvwgClW9rmym"/>
+  <link rel="stylesheet" href="./tailwind-9972b561504622e7.css" integrity="sha384&#x2D;3LUErfKEuFkq8nFUyHGwhqW8t7wnyoc5DuCmHhKhX6LvMuMpYvVtDvwgClW9rmym"/>
 
    <script type="importmap">
   {
@@ -13,8 +13,8 @@
   }
   </script>
   
-  <script src="duckdb/index-22691858aa73f586.js" integrity="sha384&#x2D;jvrCynK1je&#x2B;yD1s4UBFj&#x2F;vb9oeYiCScO6x8xiJtutMRPxLjv3Uamn5o9TlRtigk1" type="module"></script>
-<link rel="modulepreload" href="duckdb/duckdb-wasm-41762ae3327173c1.js" crossorigin="anonymous" integrity="sha384-W1WmRkbKJQLk0zQ6eJByBhZAIcCltdVcHhrQKVaVvfZXu7AmGYADAS8ZaGgkdnlm"><link rel="preload" href="duckdb/duckdb-wasm-41762ae3327173c1_bg.wasm" crossorigin="anonymous" integrity="sha384-vlYdSfb1XhW4ejmmc6DzZNdSBN0oRLulHlLwG1Oo0ebON845RIsMcDahGn56pvQ9" as="fetch" type="application/wasm"></head>
+  <script src="./index-22691858aa73f586.js" integrity="sha384&#x2D;jvrCynK1je&#x2B;yD1s4UBFj&#x2F;vb9oeYiCScO6x8xiJtutMRPxLjv3Uamn5o9TlRtigk1" type="module"></script>
+<link rel="modulepreload" href="./duckdb-wasm-41762ae3327173c1.js" crossorigin="anonymous" integrity="sha384-W1WmRkbKJQLk0zQ6eJByBhZAIcCltdVcHhrQKVaVvfZXu7AmGYADAS8ZaGgkdnlm"><link rel="preload" href="./duckdb-wasm-41762ae3327173c1_bg.wasm" crossorigin="anonymous" integrity="sha384-vlYdSfb1XhW4ejmmc6DzZNdSBN0oRLulHlLwG1Oo0ebON845RIsMcDahGn56pvQ9" as="fetch" type="application/wasm"></head>
 <body class="bg-indigo-950 text-rose-50 flex items-center justify-evenly min-h-screen">
   <script>
     function fileHandler(event) {
@@ -62,8 +62,8 @@
 <div id="result" class="flex items-center justify-evenly py-16"></div>
 
 <script type="module">
-import init, * as bindings from 'duckdb/duckdb-wasm-41762ae3327173c1.js';
-const wasm = await init({ module_or_path: 'duckdb/duckdb-wasm-41762ae3327173c1_bg.wasm' });
+import init, * as bindings from './duckdb-wasm-41762ae3327173c1.js';
+const wasm = await init({ module_or_path: './duckdb-wasm-41762ae3327173c1_bg.wasm' });
 
 
 window.wasmBindings = bindings;
